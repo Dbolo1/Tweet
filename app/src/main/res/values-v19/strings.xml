@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Tweet</string>
+    <string name="news_title">新闻</string>
+    <string name="test_body">这是一段测试fragment文本</string>
+    <string name="home_title">主页</string>
+    <string name="login_succeed">登录成功</string>
+    <string name="me_title">我</string>
+    <string-array name="title_tab">
+        <item>新闻</item>
+        <item>消息</item>
+        <item >我</item>
+    </string-array>
+    <string name="repetition">加载失败,点击重试</string>
+    <string name="load_more_data">加载更多...</string>
+    <string name="load_more_data_error">加载失败,点击重试</string>
+    <string-array name="news_title">
+        <item>新闻</item>
+        <item>趣味视频</item>
+        <item>段子</item>
+    </string-array>
+    <string-array name="tweet_title">
+        <item>标题栏1</item>
+        <item>标题栏2</item>
+        <item>标题栏3</item>
+    </string-array>
+
+
+
+</resources>

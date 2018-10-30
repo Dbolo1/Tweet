@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#31c7f5</color>
+    <color name="colorPrimaryDark">#31c7f5</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="tab_text_color">#ccc</color>
+    <color name="tab_host_green_press">#20b4e1</color>
+    <color name="tb_title">#33e3a8</color>
+    <color name="bg_tab_pressed">#fff</color>
+
+    <color name="swipe_refresh_color1">#478ee4</color>
+    <color name="swipe_refresh_color2">#f00</color>
+    <color name="swipe_refresh_color3">#46e77b</color>
+    <color name="swipe_refresh_color4">#f2fa13</color>
+    <color name="tv_load_more">#000</color>
+    <color name="tv_des">#88000000</color>
+    <color name="transparency_item">#0affffff</color>
+    <color name="transparency_item_50">#50ffffff</color>
+    <color name="transparency">#00ffffff</color>
+    <color name="transparency_gray">#80CCCCCC</color>
+    <color name="cl_default">#424242</color>
+    <color name="cl_error">#ffffff</color>
+</resources>

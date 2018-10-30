@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/list_item_bg"
+>
+    <!-- item1 纯文本-->
+
+    <LinearLayout
+        android:id="@+id/ll_news_item_3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minHeight="@dimen/space_25"
+        android:orientation="horizontal"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/tv_news_item_3_title_1"
+            android:text="@string/test_body"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:lines="3"
+            android:textColor="@color/tab_text_color"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_news_item_0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minHeight="@dimen/space_list_item_100"
+        android:padding="@dimen/space_5"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:layout_weight="3">
+
+                <TextView
+                    android:id="@+id/tv_news_item_0_title_0"
+                    android:text="@string/test_body"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:lines="2"
+                    android:maxLines="2"
+                    android:ellipsize="end"
+                    android:textColor="@color/tv_des"
+                    android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/tv_news_item_0_des"
+                    android:text="@string/test_body"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:maxLines="2"
+                    android:ellipsize="end"
+                    android:textColor="@color/tab_text_color"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/tv_news_item_0_date_0"
+                    style="@style/text_view_style"
+                    android:layout_width="0dp"
+                    android:text="时间"
+                    android:gravity="center_vertical"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4" />
+
+                <TextView
+                    android:id="@+id/tv_news_item_0_comments_0"
+                    style="@style/text_view_style"
+                    android:text="评论"
+                    android:drawableLeft="@drawable/btn_comments"
+                    android:gravity="center_vertical|right"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <!-- item2 1张图片+标题-->
+    <LinearLayout
+        android:id="@+id/ll_news_item_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minHeight="@dimen/space_list_item_100"
+        android:padding="@dimen/space_5"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:layout_weight="3">
+
+                <TextView
+                    android:id="@+id/tv_news_item_1_title_1"
+                    android:text="@string/test_body"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:lines="2"
+                    android:maxLines="2"
+                    android:ellipsize="end"
+                    android:textColor="@color/tv_des"
+                    android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/tv_news_item_1_des"
+                    android:text="@string/test_body"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:maxLines="2"
+                    android:ellipsize="end"
+                    android:textColor="@color/tab_text_color"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/tv_news_item_1_date_1"
+                    style="@style/text_view_style"
+                    android:layout_width="0dp"
+                    android:text="时间"
+                    android:gravity="center_vertical"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4" />
+
+                <TextView
+                    android:id="@+id/tv_news_item_1_comments_1"
+                    style="@style/text_view_style"
+                    android:text="评论"
+                    android:drawableLeft="@drawable/btn_comments"
+                    android:gravity="center_vertical|right"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:id="@+id/ll_news_item_1_image"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv_news_item_image_1"
+                android:src="@mipmap/ic_launcher"
+                android:padding="@dimen/space_5"
+                android:layout_width="@dimen/space_list_item_100"
+                android:scaleType="centerCrop"
+                android:layout_height="@dimen/space_list_item_100" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <!-- item4 标题+三张图片-->
+
+    <LinearLayout
+        android:id="@+id/ll_news_item_2"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="match_parent"
+        android:minHeight="@dimen/space_list_item_150"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+
+            <TextView
+                android:id="@+id/tv_news_item_2_title_1"
+                android:textColor="@color/tab_text_color"
+                android:text="@string/test_body"
+                android:layout_width="match_parent"
+                android:textSize="16sp"
+                android:lines="2"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7">
+            <LinearLayout
+                android:layout_marginTop="@dimen/space_5"
+                android:layout_marginBottom="@dimen/space_5"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/iv_news_item_2_image_1"
+                    android:layout_width="0dp"
+                    android:src="@mipmap/ic_launcher"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+
+                    />
+                <ImageView
+                    android:id="@+id/iv_news_item_2_image_2"
+                    android:layout_width="0dp"
+                    android:src="@mipmap/ic_launcher"
+                    android:layout_marginLeft="@dimen/space_5"
+                    android:layout_marginRight="@dimen/space_5"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent" />
+                <ImageView
+                    android:id="@+id/iv_news_item_2_image_3"
+                    android:layout_width="0dp"
+                    android:src="@mipmap/ic_launcher"
+
+                    android:layout_weight="1"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_news_item_2_date_1"
+                style="@style/text_view_style"
+                android:layout_width="0dp"
+                android:text="时间"
+                android:layout_height="match_parent"
+                android:layout_weight="4" />
+
+            <TextView
+                android:id="@+id/tv_news_item_2_comments_1"
+                style="@style/text_view_style"
+                android:layout_width="0dp"
+                android:text="评论"
+                android:gravity="right"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

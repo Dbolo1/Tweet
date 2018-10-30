@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<com.bolo1.tweet_app.ui.uitls.PagerTab
+    android:id="@+id/base_pager_tab"
+    android:layout_width="match_parent"
+    android:layout_height="42dp"
+    android:background="@drawable/bg_tab"
+    >
+</com.bolo1.tweet_app.ui.uitls.PagerTab>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_base_pager"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+</LinearLayout>

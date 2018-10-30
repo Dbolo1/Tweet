@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/space_5"
+    android:background="@drawable/list_item_bg"
+    android:orientation="vertical">
+<LinearLayout
+    android:minHeight="@dimen/space_list_item_150"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_tweet_title"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/space_5"
+        android:layout_weight="1"
+        android:lines="1"
+        android:singleLine="true"
+        android:text="@string/text_test"
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:id="@+id/ll_tweet_des"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/space_5"
+        android:layout_weight="3">
+        <LinearLayout
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv_tweet_des"
+                android:layout_width="match_parent"
+                android:text="@string/test_tweet_body"
+                android:textSize="16sp"
+                android:textColor="@color/tab_text_color"
+                android:layout_height="match_parent"
+                android:lines="3"
+                />
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_tweet_picture"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/space_5"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/iv_tweet_picture1"
+            android:layout_width="80dp"
+            android:layout_gravity="center"
+            android:layout_height="80dp"
+            android:layout_margin="@dimen/space_5"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_launcher"
+
+            />
+
+        <!--<ImageView-->
+            <!--android:id="@+id/iv_tweet_picture2"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_margin="@dimen/space_5"-->
+            <!--android:layout_weight="1"-->
+            <!--android:scaleType="centerCrop"-->
+            <!--android:src="@mipmap/cat_happy" />-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/iv_tweet_picture3"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_margin="@dimen/space_5"-->
+            <!--android:layout_weight="1"-->
+            <!--android:scaleType="centerCrop"-->
+            <!--android:src="@mipmap/cat_happy" />-->
+
+    </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_tweet_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/author" />
+
+        <TextView
+            android:id="@+id/tv_tweet_time"
+            style="@style/text_view_style"
+            android:lines="4"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/tv_tweet_author"
+            android:text="时间" />
+        <TextView
+            android:id="@+id/tv_tweet_comment_number"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentRight="true"
+            android:text="@string/test_tweet_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/comments"
+            />
+
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:layout_below="@+id/tv_tweet_author"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:background="#b7b4b4"-->
+
+            <!--/>-->
+    </RelativeLayout>
+
+</LinearLayout>
+
+</LinearLayout>
